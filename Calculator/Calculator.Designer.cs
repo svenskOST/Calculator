@@ -44,8 +44,8 @@
             this.Two = new System.Windows.Forms.Button();
             this.One = new System.Windows.Forms.Button();
             this.Zero = new System.Windows.Forms.Button();
-            this.Output = new System.Windows.Forms.Label();
             this.Comma = new System.Windows.Forms.Button();
+            this.Output = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Seven
@@ -55,10 +55,9 @@
             this.Seven.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Seven.Font = new System.Drawing.Font("Titillium Web", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Seven.ForeColor = System.Drawing.Color.White;
-            this.Seven.Location = new System.Drawing.Point(48, 150);
-            this.Seven.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Seven.Location = new System.Drawing.Point(55, 200);
             this.Seven.Name = "Seven";
-            this.Seven.Size = new System.Drawing.Size(122, 105);
+            this.Seven.Size = new System.Drawing.Size(139, 140);
             this.Seven.TabIndex = 1;
             this.Seven.Text = "7";
             this.Seven.UseVisualStyleBackColor = false;
@@ -71,10 +70,9 @@
             this.Eight.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Eight.Font = new System.Drawing.Font("Titillium Web", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Eight.ForeColor = System.Drawing.Color.White;
-            this.Eight.Location = new System.Drawing.Point(188, 150);
-            this.Eight.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Eight.Location = new System.Drawing.Point(215, 200);
             this.Eight.Name = "Eight";
-            this.Eight.Size = new System.Drawing.Size(122, 105);
+            this.Eight.Size = new System.Drawing.Size(139, 140);
             this.Eight.TabIndex = 2;
             this.Eight.Text = "8";
             this.Eight.UseVisualStyleBackColor = false;
@@ -87,10 +85,9 @@
             this.Nine.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Nine.Font = new System.Drawing.Font("Titillium Web", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Nine.ForeColor = System.Drawing.Color.White;
-            this.Nine.Location = new System.Drawing.Point(328, 150);
-            this.Nine.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Nine.Location = new System.Drawing.Point(375, 200);
             this.Nine.Name = "Nine";
-            this.Nine.Size = new System.Drawing.Size(122, 105);
+            this.Nine.Size = new System.Drawing.Size(139, 140);
             this.Nine.TabIndex = 3;
             this.Nine.Text = "9";
             this.Nine.UseVisualStyleBackColor = false;
@@ -103,10 +100,9 @@
             this.Divide.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Divide.Font = new System.Drawing.Font("Titillium Web", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Divide.ForeColor = System.Drawing.Color.White;
-            this.Divide.Location = new System.Drawing.Point(486, 150);
-            this.Divide.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Divide.Location = new System.Drawing.Point(555, 200);
             this.Divide.Name = "Divide";
-            this.Divide.Size = new System.Drawing.Size(122, 105);
+            this.Divide.Size = new System.Drawing.Size(139, 140);
             this.Divide.TabIndex = 4;
             this.Divide.Text = "/";
             this.Divide.UseVisualStyleBackColor = false;
@@ -120,10 +116,9 @@
             this.Multiply.Font = new System.Drawing.Font("Titillium Web", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Multiply.ForeColor = System.Drawing.Color.White;
             this.Multiply.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.Multiply.Location = new System.Drawing.Point(486, 270);
-            this.Multiply.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Multiply.Location = new System.Drawing.Point(555, 360);
             this.Multiply.Name = "Multiply";
-            this.Multiply.Size = new System.Drawing.Size(122, 105);
+            this.Multiply.Size = new System.Drawing.Size(139, 140);
             this.Multiply.TabIndex = 8;
             this.Multiply.Text = "*";
             this.Multiply.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -137,10 +132,9 @@
             this.Six.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Six.Font = new System.Drawing.Font("Titillium Web", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Six.ForeColor = System.Drawing.Color.White;
-            this.Six.Location = new System.Drawing.Point(328, 270);
-            this.Six.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Six.Location = new System.Drawing.Point(375, 360);
             this.Six.Name = "Six";
-            this.Six.Size = new System.Drawing.Size(122, 105);
+            this.Six.Size = new System.Drawing.Size(139, 140);
             this.Six.TabIndex = 7;
             this.Six.Text = "6";
             this.Six.UseVisualStyleBackColor = false;
@@ -153,10 +147,9 @@
             this.Five.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Five.Font = new System.Drawing.Font("Titillium Web", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Five.ForeColor = System.Drawing.Color.White;
-            this.Five.Location = new System.Drawing.Point(188, 270);
-            this.Five.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Five.Location = new System.Drawing.Point(215, 360);
             this.Five.Name = "Five";
-            this.Five.Size = new System.Drawing.Size(122, 105);
+            this.Five.Size = new System.Drawing.Size(139, 140);
             this.Five.TabIndex = 6;
             this.Five.Text = "5";
             this.Five.UseVisualStyleBackColor = false;
@@ -169,10 +162,9 @@
             this.Four.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Four.Font = new System.Drawing.Font("Titillium Web", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Four.ForeColor = System.Drawing.Color.White;
-            this.Four.Location = new System.Drawing.Point(48, 270);
-            this.Four.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Four.Location = new System.Drawing.Point(55, 360);
             this.Four.Name = "Four";
-            this.Four.Size = new System.Drawing.Size(122, 105);
+            this.Four.Size = new System.Drawing.Size(139, 140);
             this.Four.TabIndex = 5;
             this.Four.Text = "4";
             this.Four.UseVisualStyleBackColor = false;
@@ -185,10 +177,9 @@
             this.Subtract.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Subtract.Font = new System.Drawing.Font("Titillium Web", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Subtract.ForeColor = System.Drawing.Color.White;
-            this.Subtract.Location = new System.Drawing.Point(486, 510);
-            this.Subtract.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Subtract.Location = new System.Drawing.Point(555, 680);
             this.Subtract.Name = "Subtract";
-            this.Subtract.Size = new System.Drawing.Size(122, 105);
+            this.Subtract.Size = new System.Drawing.Size(139, 140);
             this.Subtract.TabIndex = 16;
             this.Subtract.Text = "-";
             this.Subtract.UseVisualStyleBackColor = false;
@@ -201,10 +192,9 @@
             this.Equals.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Equals.Font = new System.Drawing.Font("Titillium Web", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Equals.ForeColor = System.Drawing.Color.White;
-            this.Equals.Location = new System.Drawing.Point(328, 510);
-            this.Equals.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Equals.Location = new System.Drawing.Point(375, 680);
             this.Equals.Name = "Equals";
-            this.Equals.Size = new System.Drawing.Size(122, 105);
+            this.Equals.Size = new System.Drawing.Size(139, 140);
             this.Equals.TabIndex = 15;
             this.Equals.Text = "=";
             this.Equals.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -218,10 +208,9 @@
             this.Reset.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Reset.Font = new System.Drawing.Font("Titillium Web", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Reset.ForeColor = System.Drawing.Color.White;
-            this.Reset.Location = new System.Drawing.Point(486, 30);
-            this.Reset.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Reset.Location = new System.Drawing.Point(555, 40);
             this.Reset.Name = "Reset";
-            this.Reset.Size = new System.Drawing.Size(122, 105);
+            this.Reset.Size = new System.Drawing.Size(139, 140);
             this.Reset.TabIndex = 13;
             this.Reset.Text = "C";
             this.Reset.UseVisualStyleBackColor = false;
@@ -234,10 +223,9 @@
             this.Add.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Add.Font = new System.Drawing.Font("Titillium Web", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Add.ForeColor = System.Drawing.Color.White;
-            this.Add.Location = new System.Drawing.Point(486, 390);
-            this.Add.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Add.Location = new System.Drawing.Point(555, 520);
             this.Add.Name = "Add";
-            this.Add.Size = new System.Drawing.Size(122, 105);
+            this.Add.Size = new System.Drawing.Size(139, 140);
             this.Add.TabIndex = 12;
             this.Add.Text = "+";
             this.Add.UseVisualStyleBackColor = false;
@@ -250,10 +238,9 @@
             this.Three.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Three.Font = new System.Drawing.Font("Titillium Web", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Three.ForeColor = System.Drawing.Color.White;
-            this.Three.Location = new System.Drawing.Point(328, 390);
-            this.Three.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Three.Location = new System.Drawing.Point(375, 520);
             this.Three.Name = "Three";
-            this.Three.Size = new System.Drawing.Size(122, 105);
+            this.Three.Size = new System.Drawing.Size(139, 140);
             this.Three.TabIndex = 11;
             this.Three.Text = "3";
             this.Three.UseVisualStyleBackColor = false;
@@ -266,10 +253,9 @@
             this.Two.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Two.Font = new System.Drawing.Font("Titillium Web", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Two.ForeColor = System.Drawing.Color.White;
-            this.Two.Location = new System.Drawing.Point(188, 390);
-            this.Two.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Two.Location = new System.Drawing.Point(215, 520);
             this.Two.Name = "Two";
-            this.Two.Size = new System.Drawing.Size(122, 105);
+            this.Two.Size = new System.Drawing.Size(139, 140);
             this.Two.TabIndex = 10;
             this.Two.Text = "2";
             this.Two.UseVisualStyleBackColor = false;
@@ -282,10 +268,9 @@
             this.One.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.One.Font = new System.Drawing.Font("Titillium Web", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.One.ForeColor = System.Drawing.Color.White;
-            this.One.Location = new System.Drawing.Point(48, 390);
-            this.One.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.One.Location = new System.Drawing.Point(55, 520);
             this.One.Name = "One";
-            this.One.Size = new System.Drawing.Size(122, 105);
+            this.One.Size = new System.Drawing.Size(139, 140);
             this.One.TabIndex = 9;
             this.One.Text = "1";
             this.One.UseVisualStyleBackColor = false;
@@ -298,26 +283,13 @@
             this.Zero.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Zero.Font = new System.Drawing.Font("Titillium Web", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Zero.ForeColor = System.Drawing.Color.White;
-            this.Zero.Location = new System.Drawing.Point(188, 510);
-            this.Zero.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Zero.Location = new System.Drawing.Point(215, 680);
             this.Zero.Name = "Zero";
-            this.Zero.Size = new System.Drawing.Size(122, 105);
+            this.Zero.Size = new System.Drawing.Size(139, 140);
             this.Zero.TabIndex = 17;
             this.Zero.Text = "0";
             this.Zero.UseVisualStyleBackColor = false;
             this.Zero.Click += new System.EventHandler(this.Zero_Click);
-            // 
-            // Output
-            // 
-            this.Output.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Output.AutoSize = true;
-            this.Output.Font = new System.Drawing.Font("Titillium Web", 45F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Output.ForeColor = System.Drawing.Color.White;
-            this.Output.Location = new System.Drawing.Point(48, 38);
-            this.Output.Name = "Output";
-            this.Output.Size = new System.Drawing.Size(379, 91);
-            this.Output.TabIndex = 18;
-            this.Output.Text = "1 + 2 = result";
             // 
             // Comma
             // 
@@ -326,24 +298,33 @@
             this.Comma.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Comma.Font = new System.Drawing.Font("Titillium Web", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Comma.ForeColor = System.Drawing.Color.White;
-            this.Comma.Location = new System.Drawing.Point(48, 510);
-            this.Comma.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Comma.Location = new System.Drawing.Point(55, 680);
             this.Comma.Name = "Comma";
-            this.Comma.Size = new System.Drawing.Size(122, 105);
+            this.Comma.Size = new System.Drawing.Size(139, 140);
             this.Comma.TabIndex = 19;
             this.Comma.Text = " ,";
             this.Comma.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Comma.UseVisualStyleBackColor = false;
             this.Comma.Click += new System.EventHandler(this.Comma_Click);
             // 
+            // Output
+            // 
+            this.Output.AutoSize = true;
+            this.Output.Font = new System.Drawing.Font("Titillium Web", 45F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Output.ForeColor = System.Drawing.Color.White;
+            this.Output.Location = new System.Drawing.Point(74, 51);
+            this.Output.Name = "Output";
+            this.Output.Size = new System.Drawing.Size(0, 114);
+            this.Output.TabIndex = 21;
+            // 
             // Calculator
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.ClientSize = new System.Drawing.Size(640, 640);
-            this.Controls.Add(this.Comma);
+            this.ClientSize = new System.Drawing.Size(731, 853);
             this.Controls.Add(this.Output);
+            this.Controls.Add(this.Comma);
             this.Controls.Add(this.Zero);
             this.Controls.Add(this.Subtract);
             this.Controls.Add(this.Equals);
@@ -360,6 +341,7 @@
             this.Controls.Add(this.Nine);
             this.Controls.Add(this.Eight);
             this.Controls.Add(this.Seven);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Calculator";
             this.Text = "Calculator";
             this.Resize += new System.EventHandler(this.Calculator_Resize);
@@ -385,7 +367,8 @@
         private Button Two;
         private Button One;
         private Button Zero;
-        private Label Output;
         private Button Comma;
+        private TextBox textBox1;
+        private Label Output;
     }
 }
