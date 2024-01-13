@@ -15,6 +15,8 @@ namespace Calculator
         int positionX;
         int positionY;
 
+        bool commaExists = false;
+
         string? input;
         double? result;
         double adjustedSize;
@@ -257,10 +259,17 @@ namespace Calculator
 
         private void Zero_Click(object sender, EventArgs e)
         {
-            number![index] += "0";
-            input += "0";
-            Output.Text = input;
-            TextAdjust();
+            if (length > 1 && operation![index - 1] == "/")
+            {
+                MessageBox.Show("Cannot divide by zero!");
+            }
+            else
+            {
+                number![index] += "0";
+                input += "0";
+                Output.Text = input;
+                TextAdjust();
+            }
         }
 
         private void One_Click(object sender, EventArgs e)
@@ -385,10 +394,27 @@ namespace Calculator
 
         private void Comma_Click(object sender, EventArgs e)
         {
-            number![index] += ",";
-            input += ",";
-            Output.Text = input;
-            TextAdjust();
+            commaExists = false;
+
+            for (int i = 0; i < number![index].Length; i++)
+            {
+                if (number[index][i] == ',')
+                {
+                    commaExists = true;
+                }
+            }
+
+            if (!commaExists)
+            {
+                number![index] += ",";
+                input += ",";
+                Output.Text = input;
+                TextAdjust();
+            }
+            else
+            {
+                MessageBox.Show("Cannot write multiple commas in one number!");
+            }
         }
         
         /* När användaren trycker på equals knappen beräknas resultatet. Längden på number arrayen ger antal termer som ska räknas i for loopen.
