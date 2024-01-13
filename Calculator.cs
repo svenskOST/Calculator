@@ -1,6 +1,3 @@
-using Microsoft.VisualBasic.ApplicationServices;
-
-
 // Jag har gjort en miniräknare utifrån instruktionerna, därefter har jag implementerat och förbättrat ett flertal funktioner samt designat om den.
 
 namespace Calculator
