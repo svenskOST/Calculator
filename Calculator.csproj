@@ -5,6 +5,14 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-    <StartupObject>Program.Program</StartupObject>
+    <StartupObject>Calculator.Program</StartupObject>
   </PropertyGroup>
+  <ItemGroup>
+    <None Remove="assets\TitilliumWeb.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="assets\TitilliumWeb.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
 </Project>

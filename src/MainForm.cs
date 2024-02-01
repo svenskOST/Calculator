@@ -2,7 +2,7 @@
 
 namespace Calculator
 {
-    public partial class Calculator : Form
+    public partial class MainForm : Form
     {
         int newWidth;
         int newHeight;
@@ -25,7 +25,7 @@ namespace Calculator
         string[]? number = new string[length];
         string[]? operation = new string[length];
 
-        public Calculator()
+        public MainForm()
         {
             InitializeComponent();
         }
@@ -40,8 +40,8 @@ namespace Calculator
                operatörerna som inkluderar mellanslag är inte stringens längd en korrekt representation av hur mycket plats den tar.
                Istället räknar jag antal tecken som är samt inte är blanksteg. Då kan jag multiplicera antal blanksteg med ett lägre värde. */
 
-            int nonWhiteSpaces = Output.Text.Count(c => !Char.IsWhiteSpace(c));
-            int whiteSpaces = Output.Text.Count(c => Char.IsWhiteSpace(c));
+            int nonWhiteSpaces = Output.Text.Count(c => !char.IsWhiteSpace(c));
+            int whiteSpaces = Output.Text.Count(char.IsWhiteSpace);
             int textSpace = (int)Math.Round(nonWhiteSpaces + whiteSpaces * 0.3);
 
             // Max tillåtna längd är 9. För varje steg längre minskas storleken procentuellt.
@@ -85,7 +85,7 @@ namespace Calculator
         {
             // Här uppstår error vid ändrad upplösning/skalning. Lösning: ta bort event handler från designern och lägg till den igen.
 
-            newWidth = ActiveForm.Width;
+            newWidth = ActiveForm!.Width;
             newHeight = ActiveForm.Height;
 
             if (WindowState != FormWindowState.Minimized)
